@@ -12,6 +12,6 @@ on amazon then stay away.
 
 If you aren't scared away yet, you should be.
 
-What this script attempts to do is cart an item for 500 times, and
+What this script attempts to do is cart an item for 100 times, and
 then quit.  It will stop at the placeOrder button so you would need to
 manually click that.  
