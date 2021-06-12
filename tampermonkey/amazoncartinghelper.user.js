@@ -20,7 +20,7 @@
     }
 
     var pricelimit = 1000;
-    var refreshlimit = "500";
+    var refreshlimit = "100";
     console.log("amazonrefreshcount = " + localStorage.getItem("amazonrefreshcount"));
     if (document.title.includes("Amazon.com: Please Confirm Your Action")) {
         console.log(document.title);
