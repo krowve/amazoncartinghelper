@@ -10,14 +10,11 @@
 // ==/UserScript==
 
 // Set amazonrefreshcout in localStorage from the console
-// Must reset after it hits 500
+// Must reset after it hits 100
 // localStorage.setItem("amazonrefreshcount","0");
 
 (function() {
     'use strict';
-    if (localStorage.getItem("abort") == 1) {
-        return;
-    }
 
     var pricelimit = 1000;
     var refreshlimit = "100";
